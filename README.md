@@ -12,6 +12,10 @@ There is also an admin-ready `/admin` page that parses a simple line:
 
 The next step is to connect that parser to a protected API route or SMS/webhook provider so a message can validate and append a record to the data store. Keep auth and persistence outside the public page; the current source file makes the contract easy to swap for a database later.
 
+## Contact and mailing list
+
+The homepage includes a mailing-list signup and a booker inquiry form directly below the hero image. The fields and layout are in place, but no provider or booking inbox was supplied, so the forms are currently presentation-ready and can be connected to the service chosen for launch.
+
 ## Local development
 
 ```bash
