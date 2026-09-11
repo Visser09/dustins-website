@@ -16,6 +16,8 @@ The next step is to connect that parser to a protected API route or SMS/webhook 
 
 The homepage includes a mailing-list signup and a booker inquiry form directly below the hero image. The fields and layout are in place, but no provider or booking inbox was supplied, so the forms are currently presentation-ready and can be connected to the service chosen for launch.
 
+Show management is intentionally not exposed through the public site. See `docs/show-automation.md` for the recommended private text-to-Google-Sheet workflow using a protected Twilio + Make/Zapier connection.
+
 ## Local development
 
 ```bash
